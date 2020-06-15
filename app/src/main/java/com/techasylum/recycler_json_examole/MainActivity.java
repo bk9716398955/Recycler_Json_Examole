@@ -49,8 +49,8 @@ public class MainActivity extends AppCompatActivity implements ExampleAdapter.On
         parseJSON();
     }
     private void parseJSON() {
-        String url = "https://pixabay.com/api/?key=17006732-79d681e52fab905165991061c&q=virus&per_page=30&image_type=photo&pretty=true&orientation=vertical";
-       String videoUrl="https://pixabay.com/api/videos/?key=17006732-79d681e52fab905165991061c&q=yellow+flowers&pretty=true";
+        String url = "https://pixabay.com/api/key";
+       String videoUrl="https://pixabay.com/api/key";
 
 
         JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url, null,
