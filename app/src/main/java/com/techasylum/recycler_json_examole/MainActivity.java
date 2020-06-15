@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity implements ExampleAdapter.On
         parseJSON();
     }
     private void parseJSON() {
+        // Put Api Key here image and view 
         String url = "https://pixabay.com/api/key";
        String videoUrl="https://pixabay.com/api/key";
 
